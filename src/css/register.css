@@ -1,0 +1,142 @@
+.main {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* logo图样式 */
+.logo {
+    margin: 24px 0 99px 0;
+}
+
+.logo a {
+    display: inline-block;
+    /* float: left; */
+}
+
+.logo img {
+    display: block;
+}
+
+.logo span {
+    display: inline-block;
+    height: 51px;
+    color: #231815;
+    font-size: 20px;
+    line-height: 70px;
+    padding-left: 20px;
+}
+
+/* 标题表现 */
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #222222;
+    text-align: center;
+    line-height: 1;
+    margin-bottom: 68px;
+}
+
+/* 通行证注册样式 */
+.logindiv {
+    margin-left: 348px;
+    position: relative;
+    width: 300px;
+}
+
+.logindiv span {
+    font-size: 17px;
+    color: #666666;
+}
+
+.logindiv p {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 14px;
+    color: #999999;
+}
+
+.logindiv p a {
+    color: #fd8900;
+    text-decoration: none;
+}
+
+/* 注册表单样式 */
+.regForm{
+    margin-left: 268px;
+}
+span {
+    font-size: 12px;
+}
+
+p input {
+    font-size: 12px;
+    color: #999;
+    width: 240px;
+    height: 30px;
+}
+
+h6 {
+    padding-left: 150px;
+    margin: -10px 0;
+}
+
+p strong {
+    color: red;
+}
+
+h5 {
+    color: #70700c;
+}
+
+/* 注册的尾部样式 */
+.reg-footer {
+    margin: 140px 0 60px 0;
+    border-top: 1px solid #e9e8e8;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.reg-about {
+    margin-left: -20px;
+}
+
+.reg-about span {
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 14px;
+    line-height: 1;
+    border-right: 1px solid #d3d3d3;
+    color: #666666;
+}
+
+.reg-about span em {
+    position: relative;
+    top: -2px;
+}
+
+em {
+    font-style: normal;
+}
+
+.serviceOnline {
+    display: inline-block;
+    width: 70px;
+    height: 24px;
+    line-height: 24px;
+    background-color: #ff860d;
+    border-radius: 2px;
+    margin-left: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    position: relative;
+    top: -3px;
+}
+
+.copyright {
+    font-size: 14px;
+    color: #999999;
+    margin-top: 18px;
+    line-height: 1;
+}

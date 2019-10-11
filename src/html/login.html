@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录页面</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/reset.css">
+</head>
+
+<body>
+    <!-- 登录页面的大盒子 -->
+    <div>
+        <!-- 版心 -->
+        <div class="type-arer">
+            <!-- 登录页面的头部 -->
+
+            <head>
+                <h3 class="login=header">
+                    <img src="http://mobile.snail.com/static/index201510/images/snail-mobile.png" alt="">
+                </h3>
+                <!-- 头部的导航 -->
+                <nav>
+                    <ul>
+                        <li>注册</li>
+                        <li>登录</li>
+                        <li>充值</li>
+                        <li>商城</li>
+                        <li>论坛</li>
+                        <li>服务</li>
+                        <li>蜗牛游戏</li>
+                        <li>蜗牛移动</li>
+                    </ul>
+                </nav>
+                <br><br><br><br><br>
+            </head>
+        </div>
+        <!-- 登录的主要内容盒子 -->
+        <main>
+            <!-- 内容盒子的左边部分 -->
+            <div class="left main-l">
+                <p class="p1">扫二维码安全登录</p>
+                <img src="https://sso.woniu.com/barCode2D?action=1570353340806" alt="">
+                <p class="p2">使用蜗牛盾扫面二维码</p>
+                <p class="p3">使用蜗牛盾，安全无忧！<a href="script:;">详情&gt;</a></p>
+            </div>
+            <!-- 内容盒子的右边部分 -->
+            <div class="right main-r">
+                <i>x</i>
+                <h4>账号登录</h4>
+                <div class="block">
+                    <div class="ipt_c account">
+                        <div class="ipt_placeholder">蜗牛通行证/免卡号码</div>
+                        <div class="ipt">
+                            <input id="username" name="username" tabindex="2" type="text" value="" size="25"
+                                maxlength="32" autocomplete="false" />
+                        </div>
+                        <a class="clear_ipt" href="javascript:;"></a>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="ipt_c password">
+                        <div class="ipt_placeholder">密码</div>
+                        <div class="ipt">
+                            <input id="password" name="password" tabindex="3" type="password" value="" size="25"
+                                maxlength="32" autocomplete="off" />
+                        </div>
+                        <a class="clear_ipt" href="javascript:;"></a>
+                    </div>
+                </div>
+                <div>
+                    <a id="btnSubmit" class="login_btn" href="javascript:;" tabindex="5">登录</a>
+                    <div class="r_p_p">
+                        <a href="javascript:;" target="_blank" class="org_link">忘记密码</a>
+                        <span class="v_split">|</span>
+                        <a target="_blank" href="javascript:;"
+                            class="org_link">注册</a>
+                        <span class="v_split">|</span>
+                        <a href="javascript:;" target="_blank" class="org_link">帮助</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+/* 主要内容的容器盒子的样式 */
+.container {
+    width: 1120px;
+    margin: 0 auto 70px auto;
+    padding: 43px 0 0 80px;
+    overflow: hidden;
+}
+
+.fl {
+    float: left;
+}
+
+.imgshow {
+    width: 518px;
+    height: 478px;
+    border: 1px solid #e5e5e5;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 478px;
+    overflow: hidden;
+}
+
+/* 详情图片展示样式 */
+.imgshow img {
+    display: inline;
+    vertical-align: middle;
+}
+
+img {
+    display: block;
+}
+
+.item1-r {
+    width: 470px;
+    margin-left: 30px;
+}
+
+/* 产品名称样式 */
+.wq-name {
+    font-size: 24px;
+    line-height: 58px;
+    color: #333333;
+    font-weight: bold;
+}
+
+.sub-title {
+    padding: 0 0 12px 0;
+    line-height: 1.5;
+    color: #ff7f00;
+    font-size: 16px;
+}
+
+/* 产品发布时间样式 */
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.sp {
+    font-size: 14px;
+    color: #888888;
+}
+
+/* 产品价格样式 */
+.price {
+    color: #e7242e;
+    font-size: 30px;
+    font-weight: bold;
+}

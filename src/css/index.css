@@ -1,0 +1,1161 @@
+/* 头部样式css */
+.header {
+    width: 100%;
+    height: 144px;
+}
+
+.header-top {
+    height: 44px;
+    line-height: 44px;
+    background-color: #323436;
+    z-index: 110;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.site-ct {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 110;
+}
+
+.header-top-left {
+    float: left;
+}
+
+.header-top-link {
+    color: #989898;
+    font-size: 14px;
+    line-height: 1;
+    display: inline-block;
+}
+
+.header-top-link.eng {
+    border-left: 1px solid #515254;
+    margin-left: 5px;
+    padding: 0 19px;
+}
+
+.header-top-link.app {
+    padding: 0 19px;
+}
+
+.header-top-link.gif {
+    height: 28px;
+    position: absolute;
+    left: 320px;
+    top: 0;
+}
+
+.header-top-link:hover {
+    color: #fff;
+}
+
+/* 头部上方右边样式 */
+.header-top-right {
+    float: right;
+    position: relative;
+    z-index: 10000;
+}
+
+.cart i {
+    width: 21px;
+    height: 16px;
+    display: block;
+    position: absolute;
+    left: 38px;
+    top: 16px;
+    background: url(http://mobile.snail.com/static/common/images/nav-icon.png) -50px 0 no-repeat;
+}
+
+.cart span {
+    color: #fa0;
+}
+
+.cart {
+    width: 110px;
+    height: 43px;
+    line-height: 43px;
+    border: 1px solid #232426;
+    border-bottom: 0;
+    display: block;
+    padding-left: 68px;
+    color: #989898;
+    font-size: 14px;
+    position: relative;
+    background-color: #232426;
+}
+
+.cart-sub {
+    position: absolute;
+    top: 44px;
+    right: 0;
+    width: 308px;
+    border: 1px solid #ff9500;
+    z-index: 10001;
+    background-color: #fff;
+    display: none;
+}
+
+.cart-sub .line {
+    height: 1px;
+    overflow: hidden;
+    background-color: #fff;
+    width: 178px;
+    position: absolute;
+    top: -1px;
+    right: 0;
+    z-index: 12;
+}
+
+#cartUnlogin {
+    height: 98px;
+    line-height: 98px;
+    padding-left: 44px;
+    font-size: 14px;
+    color: #333;
+}
+
+.cart:hover {
+    border: 1px solid #ff9500;
+    border-bottom: 0;
+    background: #fff;
+    color: #333;
+}
+
+.cart:hover~.cart-sub {
+    display: block;
+}
+
+/* 头部上方中间部分样式 */
+.header-top-mid {
+    float: left;
+    position: absolute;
+    left: 580px;
+    top: 2px;
+    z-index: 110;
+}
+
+.query,
+.login,
+.sign {
+    border-right: 1px solid #515254;
+    margin-left: 5px;
+    padding: 0 19px;
+}
+
+/* 头部下方logo图样式 */
+.header-btn .logo {
+    position: absolute;
+    left: 0;
+    top: 25px;
+}
+
+.header-btn .logo img {
+    display: block;
+}
+
+/* 头部下方导航样式 */
+.nav .nav-list {
+    float: right;
+    position: relative;
+    padding-right: 65px;
+}
+
+.nav-list li {
+    float: left;
+    height: 100x;
+    line-height: 100px;
+    padding: 0 25px;
+}
+
+.nav-list li a {
+    color: #333;
+    font-size: 18px;
+}
+
+.nav-list li a img {
+    display: block
+}
+
+/* 导航的二级导航的样式 */
+.children-list {
+    padding-left: 33px;
+}
+
+.children-list li {
+    float: left;
+}
+
+.children-list img {
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+.gd-name,
+.gd-price {
+    font-size: 14px;
+    color: #333;
+    line-height: 1;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.nav-sub {
+    position: absolute;
+    overflow: hidden;
+    height: 0;
+    background: #fff;
+    width: 100%;
+    left: 0;
+    top: 100px;
+    transition: all .3s;
+    z-index: 1000;
+}
+
+.nav-list>li:hover a {
+    color: coral;
+}
+
+.nav-list>.list1:hover .nav-sub {
+    height: 300px;
+    border-top: 1px solid #232426
+}
+
+/* 中间样式 */
+.prop-wrap {
+    background: #f7f7f7;
+}
+
+.prop-banner {
+    position: relative;
+    width: 1200px;
+    height: 430px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+/* 侧边栏样式 */
+.prop-banner .dropdown-menu-index {
+    width: 230px;
+    height: 430px;
+    float: left;
+    background: #323436;
+}
+
+.prop-banner .dropdown-menu-index .nav-item {
+    height: 47px;
+    width: 230px;
+}
+
+.prop-banner .dropdown-menu-index .nav-item>a {
+    margin-top: 1px;
+    height: 45px;
+    line-height: 45px;
+    display: inline-block;
+    width: 133px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    position: relative;
+    background: url(http://mobile.snail.com/static/common/images/arrow.png) 193px center no-repeat;
+    padding: 0 40px 0 55px;
+    color: #fff;
+    font-size: 16px;
+    position: relative;
+    z-index: 10;
+}
+
+.dropdown-menu .nav-item a .i-icon-gnmk,
+.dropdown-menu-index .nav-item a .i-icon-gnmk {
+    width: 12px;
+    height: 16px;
+    background-position: 0 0;
+    left: 31px;
+    top: 18px;
+}
+
+.dropdown-menu .nav-item a i,
+.dropdown-menu-index .nav-item a i {
+    display: block;
+    position: absolute;
+    background: url(http://mobile.snail.com/static/common/images/nav-icon.png) 0 0 no-repeat;
+}
+
+.dropdown-menu-index .nav-item a i.nav-line {
+    width: 1px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    right: -2px;
+    background: #fff;
+    border: 0;
+    display: none;
+}
+
+/* 侧边栏二级导航的样式 */
+.prop-banner .dropdown-menu-index .nav-item .popover {
+    overflow: hidden;
+    z-index: 20;
+    left: 228px;
+    height: 370px;
+}
+
+.dropdown-menu-index .nav-item .children-col-1 {
+    width: 236px;
+}
+
+.dropdown-menu-index .nav-item .popover {
+    width: auto;
+    min-width: 236px;
+    height: 416px;
+    padding: 29px 25px;
+    border: 1px solid #ff9500;
+    position: absolute;
+    top: 0;
+    left: 288px;
+    background-color: #fff;
+    display: none;
+}
+
+.dropdown-menu .nav-item .popover ul,
+.dropdown-menu-index .nav-item .popover ul {
+    float: left;
+    margin-right: 10px;
+}
+
+.dropdown-menu-index .nav-item .popover li {
+    margin-bottom: 20px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.dropdown-menu .nav-item .popover-link,
+.dropdown-menu-index .nav-item .popover-link {
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #333;
+    padding: 0;
+    width: 230px;
+}
+
+.dropdown-menu .nav-item a,
+.dropdown-menu-index .nav-item a {
+    height: 52px;
+    line-height: 52px;
+    display: inline-block;
+    width: 191px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    position: relative;
+    background: url(http://mobile.snail.com/static/common/images/arrow.png) 251px center no-repeat;
+    padding: 0 40px 0 55px;
+    color: #333;
+    font-size: 16px;
+    position: relative;
+    z-index: 10;
+}
+
+.dropdown-menu .nav-item .popover-link img,
+.dropdown-menu-index .nav-item .popover-link img {
+    width: 40px;
+    height: 40px;
+    display: block;
+    float: left;
+    margin-right: 16px;
+}
+
+.prop-wrap img {
+    border: none;
+}
+
+.dropdown-menu-index>.nav-item:hover #index-nav-gnmk {
+    display: block;
+}
+
+.dropdown-menu-index>.nav-item:hover {
+    background-color: #f7f7f7;
+    border: 1px solid #ff9500;
+}
+
+.dropdown-menu-index>.nav-item:hover .nav-item-title {
+    color: black;
+}
+
+/* 轮播图样式 */
+.banner-pic {
+    width: 970px;
+    height: 430px;
+    position: relative;
+    /* overflow: hidden; */
+    float: right;
+}
+
+.banner-pic .banner-ul li {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+}
+
+.banner-pic .banner-ul li img {
+    display: block;
+}
+
+.banner-pic ol {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -75px;
+}
+
+.banner-pic ol li {
+    float: left;
+    width: 20px;
+    height: 20px;
+    background: #ccc;
+    border-radius: 50%;
+    margin-right: 10px;
+    text-indent: -999em;
+    cursor: pointer;
+}
+
+.banner-pic ol li.active {
+    background: orange;
+}
+
+#left,
+#right {
+    position: absolute;
+    font-size: 100px;
+    color: #fff;
+    text-decoration: none;
+    top: 50%;
+    margin-top: -60px;
+    display: none;
+}
+
+#left {
+    left: 20px;
+}
+
+#right {
+    right: 20px;
+}
+
+/* 人气单品区域的样式 */
+.popular-item {
+    background: #fff;
+}
+
+.popu-container {
+    height: 234px;
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 20px;
+    position: relative;
+}
+
+.popu-product {
+    width: 260px;
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+}
+
+.popu-product img {
+    display: inline;
+    width: 164px;
+    height: 164px;
+}
+
+.popu-product .popu-product-name {
+    color: #333;
+    text-align: center;
+    padding-top: 10px;
+    transition: color 0.5s;
+    -webkit-transition: color 0.5s;
+    -moz-transition: color 0.5s;
+    -o-transition: color 0.5s;
+}
+
+.popu-product .popu-product-price {
+    color: #f86a00;
+    text-align: center;
+}
+
+.popu-container a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.popu-product:hover .popu-product-name {
+    color: #ff7f00;
+}
+
+.popu-tip {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.popu-tip span {
+    color: #fff;
+    font-size: 26px;
+    position: absolute;
+    line-height: 1.4;
+    left: 30px;
+    top: 20px;
+}
+
+/* 游戏道具商品的盒子的样式 */
+.game-props {
+    width: 1200px;
+    margin: 30px auto 0;
+}
+
+/* 标题盒子的样式 */
+.game-props-title {
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.game-props-title h1 {
+    font-size: 20px;
+    color: #303030;
+    float: left;
+}
+
+.game-props-selectBar {
+    border: 1px solid #e0e0e0;
+    height: 58px;
+    width: 1198px;
+    position: relative;
+}
+
+.game-props-selectBar-wrap {
+    width: 1040px;
+    height: 61px;
+    overflow: hidden;
+    position: relative;
+}
+
+.game-props-selectBar ul {
+    width: 1040px;
+}
+
+.game-props-selectBar li {
+    float: left;
+    width: 208px;
+    text-align: center;
+}
+
+.game-props-selectBar li a {
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    height: 58px;
+    line-height: 58px;
+}
+
+.game-props-selectBar li img {
+    /* width: 40px; */
+    margin-right: 15px;
+    display: inline;
+    margin-top: -40px;
+}
+
+.game-props-selectBar li span {
+    font-size: 16px;
+    color: #333;
+    vertical-align: top;
+    vertical-align: 30%;
+}
+
+.game-props-selectBar li.active .line,
+.game-props-selectBar li:hover .line {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.game-props-selectBar li .line {
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    background: #ff9501;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+}
+
+/* 产品盒子的样式 */
+.game-props-products {
+    margin-top: 16px;
+    position: relative;
+    overflow: hidden;
+}
+
+.no-hover {
+    width: 227px;
+    height: 360px;
+    border: none;
+}
+
+.game-props-product {
+    float: left;
+    margin-right: 16px;
+    width: 225px;
+    height: 358px;
+    border: 1px solid #fff;
+    text-align: center;
+    background: #fff;
+    transition: border-color 0.5s;
+    -webkit-transition: border-color 0.5s;
+    -moz-transition: border-color 0.5s;
+    -o-transition: border-color 0.5s;
+}
+
+.game-props-product img {
+    display: inline;
+}
+
+.game-props-product-title {
+    font-size: 16px;
+    color: #333;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    line-height: 1;
+}
+
+.game-props-product-price {
+    font-size: 14px;
+    color: #f86a00;
+    text-align: left;
+    margin-left: 30px;
+    margin-bottom: 80px;
+    line-height: 1;
+}
+
+.game-props-product .game-props-product-img {
+    width: 190px;
+    height: 190px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.game-props-product .game-props-product-img img {
+    width: 100%;
+}
+
+.game-props-product img {
+    display: inline;
+}
+
+.game-props-product:hover {
+    border-color: #ff9500;
+}
+
+/* 另一栏的产品样式 */
+.game-props-product-l {
+    margin-right: 0;
+    height: 222px;
+}
+
+.game-props-product-l .game-props-product-price {
+    margin-bottom: 0;
+}
+
+.game-props-product-l .game-props-product-img {
+    width: 145px;
+    height: 145px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.game-props-product-l .game-props-product-img img {
+    width: 100%;
+}
+
+.game-props-product-l img {
+    width: 154px;
+}
+
+/* 查看更多的盒子的样式 */
+.game-props-products .more {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 226px;
+    height: 118px;
+    border: 1px solid #fff;
+    background: #fff;
+    transition: border-color 0.5s;
+    -webkit-transition: border-color 0.5s;
+    -moz-transition: border-color 0.5s;
+    -o-transition: border-color 0.5s;
+}
+
+.game-props-products .more .look-more {
+    color: #333;
+    font-size: 22px;
+    position: absolute;
+    top: 38px;
+    left: 40px;
+}
+
+.game-props-products .more .which {
+    color: #666;
+    font-size: 14px;
+    width: 167px;
+    text-align: center;
+    left: 0;
+    top: 70px;
+    position: absolute;
+}
+
+.game-props-products .more .more-btn {
+    background-image: url(http://static.snail.com/images/prop/sprite.png);
+    background-position: 0 -202px;
+    width: 47px;
+    height: 47px;
+    position: absolute;
+    right: 40px;
+    top: 37px;
+    transition: 500ms;
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    -o-transition: 500ms;
+}
+
+.game-props-products .more:hover {
+    border-color: #ff9500;
+}
+
+.game-props-products .more:hover .more-btn {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+/* 游戏手机卡的盒子的样式 */
+.game-card {
+    width: 1200px;
+    height: 450px;
+    background: cadetblue;
+    margin: 0 auto;
+}
+
+/* 游戏国际手机卡的盒子的样式 */
+.international-card {
+    width: 1200px;
+    height: 450px;
+    background: chartreuse;
+    margin: 0 auto;
+}
+
+/* 应用的盒子 */
+.use {
+    width: 1200px;
+    height: 540px;
+    background: darkgoldenrod;
+    margin: 0 auto;
+}
+
+/* 主页footer样式 */
+.footer {
+    background-color: #fff;
+    overflow: hidden;
+    border-top: 1px solid #ebebeb;
+}
+
+.footermain {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.ft-promise {
+    height: 102px;
+    background-color: #fff;
+    position: relative;
+    border-bottom: 1px solid #dedede;
+}
+
+.ft-p1 {
+    left: 20px;
+}
+
+.ft-p1,
+.ft-p2,
+.ft-p3,
+.ft-p4 {
+    font-size: 18px;
+    color: #333;
+    padding-left: 52px;
+    height: 102px;
+    line-height: 102px;
+    position: absolute;
+    top: 0;
+}
+
+.ft-p1 i {
+    background-position: 0 -360px;
+}
+
+.ft-p1 i,
+.ft-p2 i,
+.ft-p3 i,
+.ft-p4 i {
+    position: absolute;
+    left: 0;
+    top: 30px;
+    width: 42px;
+    height: 42px;
+    background: url(http://mobile.snail.com/static/common/images/nav-icon.png) 0 0 no-repeat;
+}
+
+.ft-p2 {
+    left: 380px;
+}
+
+.ft-p2 i {
+    background-position: -43px -360px;
+}
+
+.ft-p3 {
+    left: 693px;
+}
+
+.ft-p3 i {
+    background-position: -86px -360px;
+}
+
+.ft-p4 {
+    left: 1025px;
+}
+
+.ft-p4 i {
+    background-position: -129px -360px;
+}
+
+
+.friend-link {
+    padding: 30px 0;
+    border-bottom: 1px solid #dedede;
+}
+
+.footer .cc {
+    width: 200px;
+    float: left;
+}
+
+.footer .cc h4 {
+    color: #333;
+    font-size: 16px;
+    line-height: 1;
+    margin-bottom: 14px;
+}
+
+.footer .cc li {
+    margin-bottom: 10px;
+    line-height: 1;
+}
+
+.footer .cc li a {
+    color: #666;
+    font-size: 14px;
+}
+
+.ft-prize {
+    height: 203px;
+    position: relative;
+}
+
+.prize-item1 {
+    width: 100px;
+    left: 0;
+}
+
+.prize-item {
+    position: absolute;
+    top: 30px;
+    text-align: center;
+}
+
+.prize-item1 i {
+    background-position: 0 -178px;
+}
+
+.prize-item i {
+    width: 90px;
+    height: 90px;
+    display: block;
+    margin: 0 auto;
+    background: url(http://mobile.snail.com/static/common/images/nav-icon.png) 0 -178px no-repeat;
+    margin-bottom: 20px;
+}
+
+.prize-item p {
+    color: #999;
+    font-size: 14px;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.prize-item2 {
+    width: 90px;
+    left: 138px;
+}
+
+.prize-item2 i {
+    background-position: -91px -178px;
+}
+
+.prize-item3 {
+    width: 90px;
+    left: 276px;
+}
+
+.prize-item3 i {
+    background-position: -182px -178px;
+}
+
+.prize-item4 {
+    width: 144px;
+    left: 389px;
+}
+
+.prize-item4 i {
+    background-position: -273px -178px;
+}
+
+.prize-item5 {
+    width: 90px;
+    left: 552px;
+}
+
+.prize-item5 i {
+    background-position: -364px -178px;
+}
+
+.prize-item6 {
+    width: 125px;
+    left: 673px;
+}
+
+.prize-item6 i {
+    background-position: 0 -269px;
+}
+
+.prize-item7 {
+    width: 90px;
+    left: 828px;
+}
+
+.prize-item7 i {
+    background-position: -91px -269px;
+}
+
+.prize-item8 {
+    width: 90px;
+    left: 966px;
+}
+
+.prize-item8 i {
+    background-position: -182px -269px;
+}
+
+.prize-item9 {
+    width: 115px;
+    left: 1088px;
+}
+
+.prize-item9 i {
+    background-position: -273px -269px;
+}
+
+.footer-copyright {
+    padding: 30px 0;
+    background-color: #f7f7f7;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.footermain {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.copyright-link1,
+.copyright-link2,
+.copyright-link3 {
+    width: 108px;
+    height: 45px;
+    display: block;
+    background: url(http://mobile.snail.com/static/common/images/nav-icon.png) -392px 0 no-repeat;
+    float: right;
+    margin-right: 20px;
+}
+
+.copyright-p1 {
+    font-size: 18px;
+    color: #999;
+    line-height: 24px;
+    margin-bottom: 9px;
+}
+
+.copyright-p2,
+.copyright-p2 a,
+.copyright-p2 a:hover {
+    font-size: 12px;
+    color: #999;
+    line-height: 1;
+}
+
+/* 右边工具条的样式 */
+/* .right-sidebar {
+    width: 45px;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    z-index: 130;
+    top: 0;
+    min-height: 100%;
+}
+
+.sidebar {
+    width: 45px;
+    height: 100%;
+    background-color: #e0e0e0;
+    min-height: 100%;
+    position: relative;
+} */
+
+.sidebar {
+    position: fixed;
+    top: 25%;
+    left: 40px;
+    width: 30px;
+    border: 1px solid;
+}
+
+/* sidebar ul li {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    list-style: none;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+    cursor: pointer;
+    border-bottom: 1px dotted #AAAAAA;
+}
+
+sidebar ul li.last {
+    background: #ccc;
+    color: black;
+    border-bottom: none;
+}
+
+sidebar ul li span {
+    display: none;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: red;
+}
+
+sidebar ul li:hover span {
+    display: block;
+    background: darkred;
+    color: white;
+}
+
+sidebar ul li span.active {
+    display: block;
+    background: darkred;
+    color: white;
+}
+
+sidebar ul li:hover span.active {
+    display: block;
+    background: darkred;
+    color: white;
+} */
+#loutinav {
+    position: fixed;
+    top: 80px;
+    left: 40px;
+    border: 1px solid #ddd;
+    z-index: 10000;
+    display: none;
+}
+
+#loutinav ul li {
+    width: 100px;
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px dotted #DDDDDD;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    padding: 10px 0;
+    background: darkorange;
+    color: #fff;
+    margin-bottom: 3px;
+}
+
+#loutinav ul li:last-child {
+    margin-bottom: 0
+}
+
+#loutinav ul li span {
+    display: block;
+    width: 100px;
+    height: 32px;
+    padding: 10px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#loutinav ul li.last {
+    background: #5e4a4a;
+    color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+#loutinav ul li.active span {
+    background: cyan;
+    color: #fff;
+    display: block;
+}
+
+#loutinav ul li:hover span {
+    background: cyan;
+    color: #fff;
+    display: block;
+}
+
