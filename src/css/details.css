@@ -1,0 +1,218 @@
+/* 详情页的主要内容的大盒子的样式 */
+.container {
+    width: 1120px;
+    margin: 0 auto 70px auto;
+    padding: 43px 0 0 80px;
+    overflow: hidden;
+}
+
+.fn-clear {
+    zoom: 1;
+}
+
+.fl {
+    float: left;
+}
+
+/* 主要内容下，左边图片的样式 */
+.imgshow {
+    width: 518px;
+    height: 478px;
+    border: 1px solid #e5e5e5;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 478px;
+    overflow: hidden;
+}
+
+.imgshow img {
+    display: inline;
+    vertical-align: middle;
+}
+
+/* 右边产品明细的盒子的样式 */
+.item1-r {
+    width: 470px;
+    margin-left: 30px;
+}
+
+.wq-name {
+    font-size: 24px;
+    color: #333333;
+    font-weight: bold;
+}
+
+.sub-title {
+    padding: 0 0 12px 0;
+    line-height: 1.5;
+    color: #ff7f00;
+    font-size: 16px;
+}
+
+.row {
+    height: 34px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.sp {
+    font-size: 14px;
+    color: #888888;
+}
+
+.price {
+    color: #e7242e;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.lh32 {
+    line-height: 32px;
+}
+
+.zonewrap,
+.serverwrap {
+    position: relative;
+    z-index: 10;
+}
+
+.zone,
+.server {
+    width: 117px;
+    height: 32px;
+    line-height: 32px;
+    color: #888888;
+    border: 1px solid #d0d0d0;
+    cursor: pointer;
+    margin-right: 10px;
+    padding: 0 28px 0 13px;
+    font-size: 14px;
+    background: url(http://static.snail.com/images/item/9yin/dropdown.jpg) 130px center no-repeat;
+}
+
+.zone-list,
+.server-list {
+    position: absolute;
+    left: 0;
+    top: 33px;
+    background-color: #fff;
+    width: 158px;
+    border: 1px solid #d0d0d0;
+    border-top: none;
+    z-index: 11;
+    max-height: 290px;
+    overflow-y: scroll;
+    _height: 290px;
+}
+
+.zone-list a,
+.server-list a {
+    height: 34px;
+    line-height: 34px;
+    padding-left: 13px;
+    color: #333333;
+    font-size: 14px;
+    display: block;
+}
+
+.zonewrap,
+.serverwrap {
+    position: relative;
+    z-index: 10;
+}
+
+.zone,
+.server {
+    width: 117px;
+    height: 32px;
+    line-height: 32px;
+    color: #888888;
+    border: 1px solid #d0d0d0;
+    cursor: pointer;
+    margin-right: 10px;
+    padding: 0 28px 0 13px;
+    font-size: 14px;
+    background: url(http://static.snail.com/images/item/9yin/dropdown.jpg) 130px center no-repeat;
+}
+
+.lh26 {
+    line-height: 26px;
+}
+
+.minus {
+    background-position: 0 -98px;
+}
+
+.minus,
+.add {
+    width: 28px;
+    height: 28px;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    background: url(http://static.snail.com/images/item/9yin/sprite.png) 0 0 no-repeat;
+}
+
+.txt-count {
+    float: left;
+    width: 60px;
+    height: 26px;
+    line-height: 26px;
+    border: none;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    padding: 0 0 0 10px;
+    margin: 0;
+}
+
+.add {
+    background-position: -29px -98px;
+}
+
+.v-line {
+    width: auto;
+    height: 0;
+    border-top: 1px dashed #d9d9d9;
+}
+
+/* .clearfix {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+} */
+/* 立即购买按钮的盒子 */
+.row .buy_now {
+    width: 150px;
+    background-position: 0 -343px;
+}
+
+.item_btn {
+    height: 48px;
+    float: left;
+    margin-right: 20px;
+    text-indent: -999em;
+    background: url(http://static.snail.com/images/item/9yin/donate.png) no-repeat;
+}
+
+.add_to_cart {
+    width: 180px;
+    background-position: 0 -196px;
+}
+
+.donate_btn {
+    margin-right: 0;
+}
+
+.donate_btn,
+.donate_btn_p {
+    width: 100px;
+    background-position: 0 0;
+}

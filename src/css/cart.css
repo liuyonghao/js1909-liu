@@ -1,0 +1,68 @@
+/* 购物车样式 */
+/* 购物车页面标题盒子样式 */
+.cart-top {
+    height: 100px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+    background-color: #ffffff;
+}
+
+.cart-top .top {
+    width: 1200px;
+    margin: 0 auto;
+    height: 100px;
+    line-height: 100px;
+    font-size: 24px;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.cart-top .top .logo {
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.cart-sp {
+    width: 1200px;
+    margin: 0 auto 50px;    
+    overflow: hidden;
+}
+
+.cart-sp .empty {
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+.cart-sp .empty-cart {
+    margin: 50px auto;
+    width: 250px;
+    overflow: hidden;
+    background: url(http://static.snail.com/images/cart/empty.jpg) left center no-repeat;
+    padding-left: 160px;
+}
+
+.cart-sp .empty .title {
+    color: rgb(153, 153, 153);
+    font: 25px 微软雅黑;
+}
+
+.cart-sp .empty .tips {
+    color: rgb(102, 102, 102);
+    font: 18px/40px 微软雅黑;
+}
+
+.cart-sp .empty .gobtn {
+    width: 178px;
+    height: 44px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    display: block;
+    border-radius: 2px;
+    background: rgb(255, 68, 0);
+    font: 22px/44px 微软雅黑;
+    text-decoration: none;
+}

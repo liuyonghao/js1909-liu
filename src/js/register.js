@@ -4,6 +4,8 @@ var oInput = document.querySelectorAll('input');
 var oSpan = document.querySelectorAll('span');
 var yzm = document.querySelector('#yzm');
 //用户名称
+
+
 oInput[0].onfocus = function () {
     oInput[0].value = '';
     oSpan[0].style.color = '#999';
@@ -175,4 +177,7 @@ oForm.onsubmit = function () {
         oSpan[4].style.color = 'red';
     }
     return false;
-}
+};
+
+
+

@@ -31,24 +31,25 @@
                     蜗牛通行证注册
                 </em>
                 <p>
-                    已注册，<a href="javascript:;">登录</a>
+                    已注册，<a href="../html/login.html">登录</a>
                 </p>
             </div>
         </div>
         <!-- 注册表单盒子 -->
         <div class="regForm">
-            <form action="javascript:;">
+            <form action="http://10.31.155.60/h5-1909/woniushangcheng/src/html/login.html" method="post" id="form1">
                 <p>
-                    <label for="">创建账号：</label><input type="text" value="6-25位数字字母或下划线组成"><span class="span1"></span>
+                    <label for="">创建账号：</label><input type="text" value="6-25位数字字母或下划线组成" id="username" name="username"><span
+                        class="span1"></span>
                 </p>
                 <p>
-                    <label for="">设置密码：</label><input type="text" value="6-20个字符组成"><span class="span2"></span><br>
+                    <label for="">设置密码：</label><input type="text" value="6-20个字符组成" id="password" name="password"><span class="span2"></span><br>
                 </p>
                 <p>
                     <label for="">确认密码：</label><input type="text" value="确认密码"><span class="span3"></span>
                 </p>
                 <p>
-                    <label for="">手机手机：</label><input type="text" value="可享受官方增值服务"><span class="span4"></span>
+                    <label for="">手机号码：</label><input type="text" value="可享受官方增值服务" id="number"  name="number"><span class="span4"></span>
                 </p>
                 <p>
                     <label for="">验　证码：</label><input type="text" value="验证码" style="width: 110px">
@@ -61,7 +62,7 @@
                         color: #0061a6;">《Snail账号协议》</a>
                     </label>
                 </p>
-                <input type="submit" value="注册"
+                <input type="submit" value="注册" id="submit" name="submit"
                     style="background: #ff860d;color:white;width:300px;height:50px;font-size: 20px">
             </form>
         </div>
@@ -83,4 +84,5 @@
     </div>
     <script src="../js/register.js"></script>
 </body>
+
 </html>

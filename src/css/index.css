@@ -431,7 +431,7 @@
 #left,
 #right {
     position: absolute;
-    font-size: 100px;
+    font-size: 50px;
     color: #fff;
     text-decoration: none;
     top: 50%;
@@ -752,33 +752,241 @@
 }
 
 /* 游戏手机卡的盒子的样式 */
-.game-card {
+.prop-zb {
     width: 1200px;
-    height: 450px;
-    background: cadetblue;
-    margin: 0 auto;
+    margin: 30px auto 0;
+    padding-bottom: 40px;
+}
+
+.prop-zb-title {
+    content: "";
+    display: block;
+    clear: both;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.prop-zb-title h1 {
+    font-size: 20px;
+    color: #303030;
+    float: left;
+}
+
+.prop-zb-title .more {
+    float: right;
+    font-size: 14px;
+    color: #999;
+    padding-right: 29px;
+    position: relative;
+    line-height: 30px;
+    transition: color 0.5s;
+    -webkit-transition: color 0.5s;
+    -moz-transition: color 0.5s;
+    -o-transition: color 0.5s;
+}
+
+.prop-zb-title .more span {
+    background-image: url(http://static.snail.com/images/prop/sprite.png);
+    background-position: 0 0;
+    width: 19px;
+    height: 11px;
+    top: 10px;
+    right: 0;
+    position: absolute;
+}
+
+.prop-zb-products {
+    margin-top: 16px;
+    position: relative;
+    overflow: hidden;
+}
+
+.no-hover {
+    width: 227px;
+    height: 360px;
+    border: none;
+}
+
+.prop-zb-product {
+    float: left;
+    margin-right: 13px;
+    width: 225px;
+    height: 358px;
+    border: 1px solid #fff;
+    text-align: center;
+    background: #fff;
+    transition: border-color 0.5s;
+    -webkit-transition: border-color 0.5s;
+    -moz-transition: border-color 0.5s;
+    -o-transition: border-color 0.5s;
+}
+
+.prop-zb-product img {
+    display: inline;
+}
+
+.prop-wrap img {
+    border: none;
+}
+
+img {
+    display: block;
+}
+
+.prop-zb-title .more:hover {
+    color: #ff7f00;
+}
+
+.prop-zb-product:hover {
+    border-color: #ff9500;
+}
+
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.prop-zb-product-title {
+    font-size: 16px;
+    color: #333;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 8px;
+    margin-left: 30px;
+    line-height: 1;
+}
+
+.prop-zb-product-des {
+    font-size: 14px;
+    color: #999;
+    line-height: 1;
+    margin-bottom: 8px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.prop-zb-product-price {
+    font-size: 14px;
+    color: #f86a00;
+    text-align: left;
+    margin-left: 30px;
+    margin-bottom: 60px;
+    line-height: 1;
+}
+
+.prop-zb-product .prop-zb-img {
+    width: 197px;
+    height: 190px;
+}
+
+.prop-zb-product img {
+    display: inline;
+}
+
+.prop-wrap img {
+    border: none;
+}
+
+img {
+    display: block;
+}
+
+fieldset,
+img {
+    border: 0;
 }
 
 /* 游戏国际手机卡的盒子的样式 */
 .international-card {
     width: 1200px;
     height: 450px;
-    background: chartreuse;
     margin: 0 auto;
 }
 
 /* 应用的盒子 */
 .use {
     width: 1200px;
-    height: 540px;
-    background: darkgoldenrod;
+    height: 500px;
     margin: 0 auto;
+}
+
+.use .use-title {
+    margin-bottom: 20px;
+}
+
+.use .use-title h1 {
+    font-size: 20px;
+    color: #303030;
+}
+
+.use .use-detail {
+    margin-top: 16px;
+    position: relative;
+}
+
+.use .use-detail .use-box.use-goods {
+    border-top: 1px solid #daae63;
+}
+
+.use .use-detail .use-box h2 {
+    font-size: 18px;
+    color: #303030;
+    color: #ff9500;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'microsoft yahei';
+    margin-bottom: 15px;
+}
+
+.use .use-detail .use-box {
+    width: 280px;
+    height: 420px;
+    float: left;
+    margin-right: 15px;
+    background: #f7f7f7;
+    text-align: center;
+}
+
+.use .use-detail .use-box .swiper-slide h3 {
+    width: 280px;
+    font-size: 22px;
+    font-family: 'microsoft yahei';
+    font-weight: normal;
+    text-align: center;
+}
+
+.use .use-detail .use-box .swiper-slide h4 {
+    font-weight: normal;
+    color: #999;
+    font-family: 'microsoft yahei';
+}
+
+.use .use-detail .use-box .swiper-slide .thumb {
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.use .use-detail .use-box .swiper-slide .flag .round {
+    background-color: #fff;
+    width: 9px;
+    height: 9px;
+    border: 2px solid #ff9500;
+
+}
+
+.use .use-detail .use-box .swiper-slide .flag .circle {
+    cursor: pointer;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #eee;
+    margin-top: 20px;
 }
 
 /* 主页footer样式 */
 .footer {
     background-color: #fff;
-    overflow: hidden;
     border-top: 1px solid #ebebeb;
 }
 
@@ -1031,82 +1239,11 @@
     line-height: 1;
 }
 
-/* 右边工具条的样式 */
-/* .right-sidebar {
-    width: 45px;
-    height: 100%;
-    position: fixed;
-    right: 0;
-    z-index: 130;
-    top: 0;
-    min-height: 100%;
-}
-
-.sidebar {
-    width: 45px;
-    height: 100%;
-    background-color: #e0e0e0;
-    min-height: 100%;
-    position: relative;
-} */
-
-.sidebar {
-    position: fixed;
-    top: 25%;
-    left: 40px;
-    width: 30px;
-    border: 1px solid;
-}
-
-/* sidebar ul li {
-    position: relative;
-    width: 30px;
-    height: 30px;
-    list-style: none;
-    text-align: center;
-    line-height: 30px;
-    font-size: 12px;
-    cursor: pointer;
-    border-bottom: 1px dotted #AAAAAA;
-}
-
-sidebar ul li.last {
-    background: #ccc;
-    color: black;
-    border-bottom: none;
-}
-
-sidebar ul li span {
-    display: none;
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    color: red;
-}
-
-sidebar ul li:hover span {
-    display: block;
-    background: darkred;
-    color: white;
-}
-
-sidebar ul li span.active {
-    display: block;
-    background: darkred;
-    color: white;
-}
-
-sidebar ul li:hover span.active {
-    display: block;
-    background: darkred;
-    color: white;
-} */
-#loutinav {
+/* 楼梯的样式 */
+/* #loutinav {
     position: fixed;
     top: 80px;
-    left: 40px;
+    left: 2px;
     border: 1px solid #ddd;
     z-index: 10000;
     display: none;
@@ -1145,9 +1282,9 @@ sidebar ul li:hover span.active {
     background: #5e4a4a;
     color: #fff;
     border-bottom: 1px solid #ddd;
-}
+} */
 
-#loutinav ul li.active span {
+/* #loutinav ul li.active span {
     background: cyan;
     color: #fff;
     display: block;
@@ -1157,5 +1294,11 @@ sidebar ul li:hover span.active {
     background: cyan;
     color: #fff;
     display: block;
-}
+} */
 
+/* 渲染列表数据的样式 */
+.list {
+    width: 1200px;
+    height: 420;
+    margin: 0 auto;
+}
