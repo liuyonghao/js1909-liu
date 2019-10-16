@@ -1,21 +1,21 @@
 /* 详情页的主要内容的大盒子的样式 */
-.container {
+.goodsinfo {
     width: 1120px;
     margin: 0 auto 70px auto;
-    padding: 43px 0 0 80px;
+    padding: 20px 0 30px 50px;
     overflow: hidden;
 }
 
-.fn-clear {
+/* .fn-clear {
     zoom: 1;
 }
 
 .fl {
     float: left;
-}
+} */
 
 /* 主要内容下，左边图片的样式 */
-.imgshow {
+/* .imgshow {
     width: 518px;
     height: 478px;
     border: 1px solid #e5e5e5;
@@ -29,10 +29,10 @@
 .imgshow img {
     display: inline;
     vertical-align: middle;
-}
+} */
 
 /* 右边产品明细的盒子的样式 */
-.item1-r {
+/* .item1-r {
     width: 470px;
     margin-left: 30px;
 }
@@ -178,7 +178,7 @@
     width: auto;
     height: 0;
     border-top: 1px dashed #d9d9d9;
-}
+} */
 
 /* .clearfix {
     content: "";
@@ -189,7 +189,7 @@
     visibility: hidden;
 } */
 /* 立即购买按钮的盒子 */
-.row .buy_now {
+/* .row .buy_now {
     width: 150px;
     background-position: 0 -343px;
 }
@@ -215,4 +215,125 @@
 .donate_btn_p {
     width: 100px;
     background-position: 0 0;
+} */
+
+/* 左边缩放图的样式 */
+.wrap {
+    float: left;
+    position: relative;
+}
+
+#spic {
+    width: 400px;
+    height: 400px;
+    border: 1px solid #000;
+    float: left;
+    position: relative;
+}
+
+#spic img {
+    width: 400px;
+    height: 400px;
+}
+
+#sf {
+    width: 40px;
+    height: 40px;
+    background: orange;
+    opacity: 0.3;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    visibility: hidden;
+}
+
+#bf {
+    width: 400px;
+    height: 500px;
+    border: 1px solid #000;
+    overflow: hidden;
+    position: absolute;
+    left: 410px;
+    visibility: hidden;
+    z-index: 100;
+}
+
+#bf img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 700px;
+    height: 700px;
+}
+
+/* 右边样式 */
+.goodsinfo {
+    margin: 100px 0 0 100px;
+}
+
+.goodsinfo-img {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.goodsinfo-img img {
+    width: 200px;
+    height: 200px;
+}
+
+.goodsinfo-word {
+    overflow: hidden;
+    float: left;
+}
+
+.p-name {
+    width: 350px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.p-name .loadtitle {
+    font: 16px "微软雅黑";
+    color: #666666;
+}
+
+.p-price {
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 300px;
+    height: 50px;
+    background: rgba(183, 183, 183, 0.4);
+    line-height: 50px;
+}
+
+.p-btn {
+    margin-top: 20px;
+}
+
+.p-btn input {
+    display: inline-block;
+    width: 50px;
+    height: 46px;
+    font-size: 20px;
+    font-family: "微软雅黑";
+    color: black;
+    margin-left: 50px;
+    border: 1px solid gray;
+    float: left;
+}
+
+.p-btn a {
+    display: block;
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    font-size: 16px;
+    font-family: "微软雅黑";
+    color: white;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    margin-left: 10px;
 }

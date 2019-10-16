@@ -25,7 +25,8 @@
     margin-right: 30px;
 }
 
-.cart-sp {
+/* 购物车无商品时的样式 */
+/* .cart-sp {
     width: 1200px;
     margin: 0 auto 50px;    
     overflow: hidden;
@@ -65,4 +66,6 @@
     background: rgb(255, 68, 0);
     font: 22px/44px 微软雅黑;
     text-decoration: none;
-}
+} */
+
+/* 加购商品时的样式 */

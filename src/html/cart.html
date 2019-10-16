@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/cart.css">
+    <link rel="stylesheet" href="../css/cart1.css">
     <script src="../js/jquery.js"></script>
 </head>
-
 <body>
     <header></header>
     <!-- 购物车页面标题盒子 -->
@@ -24,12 +24,69 @@
             我的购物车
         </div>
     </div>
-    <div class="cart-sp">
+    <!-- 无加购商品时的结构 -->
+    <!-- <div class="cart-sp">
         <div class="empty" id="empty">
             <div class="empty-cart">
                 <h4 class="title">您的购物车内暂无商品</h4>
                 <p class="tips">等待就是浪费青春！</p>
                 <a href="http://mall.snail.com/" class="gobtn">GO</a>
+            </div>
+        </div>
+    </div> -->
+    <!-- 有加购商品时的结构 -->
+    <div id="container" class="cart1">
+        <div class="w">
+            <!--购物车列表-->
+            <div class="cart-wrap" style="display: block;"> 
+                <div id="jd-cart">
+                    <div class="cartmain">
+                        <div class="cart-thead">
+                            <div class="cart-col t-checkbox">
+                                <div class="cart-checkbox">
+                                    <input type="checkbox" checked="" name="" id="" class="allsel" value="" /> 全选
+                                </div>
+                            </div>
+                            <div class="cart-col t-goods">商品</div>
+                            <div class="cart-col t-props"></div>
+                            <div class="cart-col t-prices">单价(元)</div>
+                            <div class="cart-col t-quantity">数量</div>
+                            <div class="cart-col t-sum">小计(元)</div>
+                            <div class="cart-col t-action">操作</div>
+                        </div>
+                        <div id="cart-list">
+                            <div class="cart-item-list">
+                                <div class="item-list">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="cart-floatbar">
+                    <div class="select-all">
+                        <div class="cart-checkbox">
+                            <input type="checkbox" checked="" name="" id="" class="allsel" value="" /> 全选
+                        </div>
+                    </div>
+                    <div class="operation">
+                        <a href="javascript:void(0)">删除选中的商品</a>
+                    </div>
+                    <div class="toolbar-right">
+                        <div class="btn-area">
+                            <a href=""></a>
+                        </div>
+                        <div class="price-sum">
+                            <span class="txt">总价（不含运费）：</span>
+                            <span class="totalprice">￥0.00</span>
+                        </div>
+                        <div class="amount-sum">
+                            已选择
+                            <em>0</em> 件商品
+                            <b></b>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -38,6 +95,9 @@
         $('header').load('index-header.html');
         $('footer').load('index-footer.html');
     </script>
+    <script src="../js/ajaxpromise.js"></script>
+    <script src="../js/cookie.js"></script>
+    <script src="../js/cart.js"></script>
 </body>
 
 </html>

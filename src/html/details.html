@@ -131,20 +131,31 @@
         </div>
     </div>
     <!-- 详情页的主要内容的大盒子 -->
-    <div class="container">
-        <div class="item1 fn-clear">
-            <div class="item1-l fl">
-                <!-- 产品图片展示 -->
-                <div class="imgshow">
+    <!-- <div class="container">
+        <div class="item1 fn-clear"> -->
+    <!-- <div class="item1-l fl"> -->
+    <!-- 产品图片展示 -->
+    <!-- <div class="imgshow">
                     <img src="http://attachments.snail.com/snail-app/goods/20150107193542342.jpg" alt="">
                     <div class="onsale"></div>
                     <input type="hidden" id="status" name="status" value="onsale">
-                </div>
+                </div>              
+            </div> -->
+    <div class="goodsinfo">
+        <div class="box"><a href="../html/cart.html" style="background: orange; width: 80px;height: 40px;margin-bottom: 15px;">进入购物车</a></div>
+        <div class="wrap">
+            <div id="spic">
+                <img src="http://attachments.snail.com/snail-app/goods/20150107193542342.jpg" alt="" id="smallpic">
+                <div id="sf"></div>
             </div>
-            <!-- 右边产品标题明细的盒子 -->
-            <div class="item1-r fl">
+            <div id="bf">
+                <img src="http://attachments.snail.com/snail-app/goods/20150107193542342.jpg" alt="" id="bpic">
+            </div>
+        </div>
+        <!-- 右边产品标题明细的盒子 -->
+        <!-- <div class="item1-r fl">
                 <div class="row">
-                    <p class="wq-name">
+                    <p class="wq-name loadtitle">
                         逐月销金袍
                     </p>
                     <p class="sub-title"></p>
@@ -161,7 +172,7 @@
                     <span class="sp">
                         现 价：
                     </span>
-                    <span class="price">
+                    <span class="price loadpcp">
                         ￥198.00 </span>
                 </div>
                 <input type="hidden" id="kami" value="0">
@@ -209,14 +220,25 @@
 
                 <div class="row clearfix">
                     <a href="javascript:void(0);" id="buynow-link" class="item_btn buy_now">立即购买</a>
-                    <a href="javascript:void(0);" id="addCart-link" class="item_btn add_to_cart">
-                        <i></i>
+                    <a href="javascript:void(0);" id="addCart-link" class="item_btn add_to_cart p-btn">
+                        <i id="count"></i>
                         加入购物车
                     </a>
                     <a href="javascript:void(0);" id="donate-link" class="item_btn donate_btn">赠送</a> </div>
+            </div> -->
+        <div class="goodsinfo-word">
+            <div class="p-name">
+                <a class="loadtitle" href="##"></a>
+            </div>
+            <div class="p-price"><strong><em>￥</em><i class="loadpcp"></i></strong></div>
+            <div class="p-btn">
+                <input type="text" id="count" value="1" />
+                <a href="../html/cart.html">加入购物车</a>
             </div>
         </div>
     </div>
+    <!-- </div>
+    </div> -->
     <div class="footer">
         <div class="footermain">
             <div class="ft-promise">
@@ -406,7 +428,10 @@
             </div>
         </div>
     </div>
-    <script src="../js/show.js"></script>
+    <script src="../js/ajaxpromise.js"></script>
+    <script src="../js/move.js"></script>
+    <script src="../js/cookie.js"></script>
+    <script src="../js/details.js"></script>
 </body>
 
 </html>

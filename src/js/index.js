@@ -70,29 +70,6 @@ timer = setInterval(function () {
 
 
 
-//楼梯效果
-//   (function () {
-//       let $loutiNav = $('#loutinav'); //楼梯盒子
-//       let $loutiNavLi = $('#loutinav ul li'); //每一层的楼梯
-//       //1.楼梯出现与隐藏
-//       $(window).on('scroll', function () {
-//           let $topValue = $(this).scrollTop(); //变化的滚动条高度
-//           if ($topValue >= 800) {
-//               $loutiNav.show();
-//           } else {
-//               $loutiNav.hide();
-//           };
-//           //4.触发滚动条 楼层对应的楼梯改变
-//           $('.right-sidebar').each(function (index, element) {
-//               let $loucengTop = $(this).offset().top + $(this).height() / 2; //top加上自身高度一半的时候就变成下一层楼梯
-//               if ($loucengTop > $topValue) {
-//                   $loutiNavLi.eq(index).addClass('active').siblings().removeClass('active');
-//                   return false //跟break一样
-//               }
-//           })
-//       })
-//   });
-
 
 
 //渲染数据列表
@@ -109,7 +86,7 @@ timer = setInterval(function () {
         for (let value of listdata) {
             strhtml += `
             <li>
-                <a href="../html/index-555.html?sid=${value.sid}" target="_blank" class="prop-zb-product" >
+                <a href="../html/details.html?sid=${value.sid}" target="_blank" class="prop-zb-product" >
                     <div class = "prop-zb-product-title" >${value.titile}</div>
                     <div class = "prop-zb-product-price" > ${value.price}元</div> 
                     <img src="${value.url}">
@@ -151,7 +128,7 @@ function lazyLoad() {
 // tab切换
 var aBtn = document.querySelectorAll('.button');
 var adiv = document.querySelectorAll('.game-props-products');
-for (var i = 0; i < aBtn.length; i++) { //i:0,1,2
+for (var i = 0; i < aBtn.length; i++) { //i:0,1
     //通过循环设置自定义索引(自定义属性)
     aBtn[i].index = i;
     //for循环里面有事件或者定时器都无法使用循环的值。i是全局的   for循环和事件关系。
@@ -171,3 +148,8 @@ for (var i = 0; i < aBtn.length; i++) { //i:0,1,2
         adiv[this.index].className = 'show';
     }
 }
+
+
+
+//楼梯效果
+new louti().init();
