@@ -5,7 +5,7 @@
 
     btnSubmit.onclick=function(){
         let ajax = new XMLHttpRequest();
-        ajax.open('post', 'http://localhost/h5-1909/woniushangcheng/php/login.php', true);
+        ajax.open('post', 'http://10.31.155.60/h5-1909/woniushangcheng/php/login.php', true);
         ajax.setRequestHeader('content-type','application/x-www-form-urlencoded');
         ajax.send(`username=${username.value}&password=${password.value}`);
         ajax.onreadystatechange = function () {

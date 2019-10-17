@@ -2,10 +2,8 @@
 var oForm = document.querySelector('form');
 var oInput = document.querySelectorAll('input');
 var oSpan = document.querySelectorAll('span');
-var yzm = document.querySelector('#yzm');
+var oyzm = document.querySelector('#yzm');
 //用户名称
-
-
 oInput[0].onfocus = function () {
     oInput[0].value = '';
     oSpan[0].style.color = '#999';
@@ -178,6 +176,4 @@ oForm.onsubmit = function () {
     }
     return false;
 };
-
-
 

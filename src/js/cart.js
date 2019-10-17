@@ -1,18 +1,18 @@
 // 购物车列表的拼接
-!function(){
-    const list=document.querySelector('.item-list');
+! function () {
+    const list = document.querySelector('.item-list');
     const phpurl = 'http://10.31.155.60/h5-1909/woniushangcheng/php/';
     //1.封装函数实现商品列表的拼接。
-    function goodslist(sid,num){//sid:商品的编号，num:商品的数量
+    function goodslist(sid, num) { //sid:商品的编号，num:商品的数量
         $ajax({
             url: phpurl + 'list.php',
-            dataType:'json'
-        }).then(function(datalist){
+            dataType: 'json'
+        }).then(function (datalist) {
             // console.log(datalist);
-            for(let i=0;i<datalist.length;i++){
-                if(datalist[i].sid===sid){
-                    let strhtml='';
-                    strhtml+=` 
+            for (let i = 0; i < datalist.length; i++) {
+                if (datalist[i].sid === sid) {
+                    let strhtml = '';
+                    strhtml += ` 
                         <div class="goods-item goods-item-sele" style="display: block;">
                             <div class="goods-info">
                                 <div class="cell b-checkbox">
@@ -55,21 +55,24 @@
                             </div>
                         </div>
                     `;
-                    list.innerHTML+=strhtml;
+                    list.innerHTML += strhtml;
                 }
             }
-        });  
+        });
     }
     //2.获取对应的cookie转换成数组。
-    if(getcookie('cookiesid') && getcookie('cookienum')){       
-        let arrsid=getcookie('cookiesid').split(',');
-        let arrnum=getcookie('cookienum').split(',');
-        for(let i=0;i<arrsid.length;i++){
-            goodslist(arrsid[i],arrnum[i]);
+    if (getcookie('cookiesid') && getcookie('cookienum')) {
+        let arrsid = getcookie('cookiesid').split(',');
+        let arrnum = getcookie('cookienum').split(',');
+        for (let i = 0; i < arrsid.length; i++) {
+            goodslist(arrsid[i], arrnum[i]);
         }
     }
 }();
 
- //全选操作
-
-
+//求总数
+function count() {
+    let pricAll = 0;
+    let numAll = 0;
+  
+}

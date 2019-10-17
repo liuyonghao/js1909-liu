@@ -1,5 +1,5 @@
 <?php
-//1.数据库连接
+//1.连接数据库
 header('content-type:text/html;charset=utf-8');//设置编码
 define('HOST','localhost');//设置主机名
 define('USERNAME','root');//设置用户名
